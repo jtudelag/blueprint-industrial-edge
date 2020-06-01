@@ -1,7 +1,9 @@
 # How to deploy staging-edge cluster on AWS
 
-This is a two step process, first the user has to define its 
+This is a two step process:
 
+1. First the user has to define its site cluster and push it to its git reporistory.
+2. Then, the user shoud use `knictl` to render all the manifests, and run the OCP instaler.
 
 ## Define your site cluster
 
