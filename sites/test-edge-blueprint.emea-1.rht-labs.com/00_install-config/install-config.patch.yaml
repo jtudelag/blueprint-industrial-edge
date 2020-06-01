@@ -2,4 +2,4 @@ apiVersion: v1
 kind: InstallConfig
 metadata:
   name: cluster
-baseDomain: devcluster.openshift.com
+baseDomain: emea-1.rht-labs.com

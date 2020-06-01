@@ -4,5 +4,5 @@ metadata:
   name: endpoint
   namespace: multicluster-endpoint
 spec:
-  clusterName: staging-aws
-  clusterNamespace: staging-aws
+  clusterName: stage-edge-blueprint-aws
+  clusterNamespace: stage-edge-blueprint-aws
