@@ -1,4 +1,4 @@
-# How to deploy staging-edge cluster on AWS
+# How to deploy a site cluster on AWS
 
 This is a two step process:
 
