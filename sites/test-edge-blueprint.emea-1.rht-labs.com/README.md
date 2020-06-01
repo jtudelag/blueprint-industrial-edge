@@ -45,3 +45,9 @@ knictl apply_workloads "$SITE_NAME"
 ```
 
 This is basically running kustomize to build and render all the manifests enabling alpha plugins, and apply them via oc/kubectl.
+
+To destroy a cluster:
+
+```bash
+openshift-install destroy cluster --dir="$HOME/.kni/$SITE_NAME/final_manifests" --log-level debug
+```

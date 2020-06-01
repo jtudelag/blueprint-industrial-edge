@@ -2,15 +2,17 @@
 ~/.kni/kubeconfighub.json
 
 "kubeconfig file, lo encodeas a base64"
-
+cat pull-secret.json | base64 -w0 > ~/.kni/dockerconfig.json
 
 ```bash
 tree .kni/
-.kni/
+.
+├── dockerconfig.json
 ├── id_rsa
 ├── id_rsa.pub
 ├── kubeconfighub.json
-└── pull-secret.json
+├── pull-secret.json
+└── tmp
 ```
 
 # Profile
