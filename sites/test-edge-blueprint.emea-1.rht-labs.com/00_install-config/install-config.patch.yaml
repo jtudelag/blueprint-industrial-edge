@@ -3,3 +3,6 @@ kind: InstallConfig
 metadata:
   name: cluster
 baseDomain: emea-1.rht-labs.com
+platform:
+  aws:
+    region: eu-central-1
